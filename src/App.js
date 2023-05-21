@@ -48,9 +48,7 @@ export default function App() {
   let [data, setData] = useState(structure);
  console.log(data)
   const handleClick = props => {
-    // do extra stuff with this data
-    // {state, id, name, type, path?, parent?, level? }
-    // console.log(props);
+  
   };
   const handleUpdate = state => {
     localStorage.setItem(
